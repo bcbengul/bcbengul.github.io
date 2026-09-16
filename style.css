@@ -205,7 +205,7 @@ section[id] { scroll-margin-top: 90px; }
 
 .hero-visual { display: flex; justify-content: center; }
 .photo-panel {
-    width: min(100%, 440px);
+    width: min(100%, 340px);
     border: 1px solid rgba(78,225,210,.26);
     background: linear-gradient(180deg, rgba(17,35,61,.92), rgba(9,16,27,.82));
     border-radius: 28px;

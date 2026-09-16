@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#dfeaf7"/>
+      <stop offset="100%" stop-color="#a5b4c8"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" x2="1">
+      <stop offset="0%" stop-color="#e7ecf6"/>
+      <stop offset="100%" stop-color="#cfd9eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <circle cx="450" cy="300" r="170" fill="#d2b299"/>
+  <path d="M290 970 L610 970 L660 600 Q620 560 450 560 Q280 560 240 600 Z" fill="url(#shirt)"/>
+  <path d="M330 290 Q450 210 570 290 L600 470 Q530 540 450 540 Q370 540 300 470 Z" fill="#1d2333"/>
+  <path d="M390 354 Q450 318 510 354 L520 430 Q450 468 380 430 Z" fill="#273247" opacity="0.9"/>
+  <circle cx="390" cy="300" r="10" fill="#1d2333"/>
+  <circle cx="510" cy="300" r="10" fill="#1d2333"/>
+  <path d="M402 372 Q450 398 498 372" stroke="#8a5b48" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <rect x="260" y="100" width="380" height="70" rx="16" fill="#dfeaf7" opacity="0.7"/>
+  <text x="450" y="145" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#1b2433">PROFIL FOTOĞRAFI</text>
+</svg>

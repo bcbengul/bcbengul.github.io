@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#f1efe8"/>
+  <rect x="0" y="0" width="1200" height="120" fill="#dfe6ea"/>
+  <rect x="0" y="670" width="1200" height="230" fill="#d8d2c7"/>
+  <rect x="80" y="160" width="1040" height="470" fill="#f4f1ea"/>
+  <rect x="130" y="200" width="980" height="360" fill="#fbfaf8"/>
+  <rect x="170" y="230" width="880" height="280" fill="#f2f4f7"/>
+  <rect x="260" y="250" width="260" height="220" fill="#d9e3ee"/>
+  <rect x="560" y="250" width="360" height="220" fill="#e6eef6"/>
+  <circle cx="330" cy="360" r="90" fill="#d9c2ad"/>
+  <rect x="250" y="420" width="160" height="140" rx="18" fill="#fff"/>
+  <rect x="620" y="310" width="210" height="120" rx="12" fill="#ffffff"/>
+  <rect x="850" y="310" width="120" height="120" rx="12" fill="#ffffff"/>
+  <g transform="translate(0,0)">
+    <circle cx="260" cy="640" r="65" fill="#d8b79a"/>
+    <rect x="190" y="695" width="140" height="150" rx="18" fill="#f6f6f6"/>
+    <circle cx="590" cy="640" r="65" fill="#d8b79a"/>
+    <rect x="520" y="695" width="140" height="150" rx="18" fill="#f6f6f6"/>
+    <circle cx="920" cy="640" r="65" fill="#d8b79a"/>
+    <rect x="850" y="695" width="140" height="150" rx="18" fill="#f6f6f6"/>
+  </g>
+  <text x="600" y="830" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#1d2d3d">TARSUS ÜNİVERSİTESİ STAJ FOTOĞRAFI</text>
+</svg>

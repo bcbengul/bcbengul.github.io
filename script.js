@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
         formStatus.textContent = 'Mesajınız gönderiliyor...';
 
         try {
-            const response = await fetch('https://formsubmit.co/ajax/bengicanb@gmail.com', {
+            const response = await fetch('https://formsubmit.co/ajax/066694060f3173f2dc5cb60480a4c3bb', {
                 method: 'POST',
                 headers: { Accept: 'application/json' },
                 body: new URLSearchParams({

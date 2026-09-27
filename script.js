@@ -62,11 +62,40 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { threshold: 0.25 });
     document.querySelectorAll('.skills-category').forEach((category) => skillObserver.observe(category));
 
-    form.addEventListener('submit', (event) => {
+    form.addEventListener('submit', async (event) => {
         event.preventDefault();
         const name = document.getElementById('name').value.trim();
-        formStatus.textContent = `Teşekkürler ${name}! Mesajınız hazırlandı. Bu formu çalışır hale getirmek için bir form servisi bağlayabilirsiniz.`;
-        form.reset();
+        const email = document.getElementById('email').value.trim();
+        const subject = document.getElementById('subject').value.trim();
+        const message = document.getElementById('message').value.trim();
+        const submitButton = form.querySelector('button[type="submit"]');
+
+        submitButton.disabled = true;
+        formStatus.textContent = 'Mesajınız gönderiliyor...';
+
+        try {
+            const response = await fetch('https://formsubmit.co/ajax/bengicanb@gmail.com', {
+                method: 'POST',
+                headers: { Accept: 'application/json' },
+                body: new URLSearchParams({
+                    name,
+                    email,
+                    subject,
+                    message,
+                    _subject: subject,
+                    _template: 'table'
+                })
+            });
+
+            if (!response.ok) throw new Error('Mesaj gönderilemedi.');
+
+            formStatus.textContent = `Teşekkürler ${name}! Mesajınız başarıyla gönderildi.`;
+            form.reset();
+        } catch (error) {
+            formStatus.textContent = 'Mesaj gönderilemedi. Lütfen biraz sonra tekrar deneyin.';
+        } finally {
+            submitButton.disabled = false;
+        }
     });
 
     document.getElementById('year').textContent = new Date().getFullYear();
